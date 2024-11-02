@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -6,4 +8,32 @@ html, body {
 h1,h2,h3,h4,h5,h6,nav,header,main,footer {
     margin: 0;
     padding: 0;
+}
+
+header{
+    padding: 10px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > h1 {
+    font-family: "Libre Baskerville", serif;
+    color: rgb(191, 32, 32);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.447);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
