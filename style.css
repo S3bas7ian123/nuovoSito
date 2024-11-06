@@ -6,7 +6,7 @@ html, body {
     height: 100%;
 }
 
-h1,h2,h3,h4,h5,h6,nav,header,main,footer {
+h1,h2,h3,h4,h5,h6,nav,header,main,footer,section {
     margin: 0;
     padding: 0;
 }
@@ -53,10 +53,23 @@ main {
 }
 
 div {
+    color: white;
+    height: 35rem;
     display: flex;
-    height: 500px;
     justify-content: center;
     align-items: center;
-    color: bisque;
 }
 
+/* _____________________________________________ */
+
+.contBtn {
+    margin: 0;
+    padding: 2rem;
+    height: 0;
+}
+
+.titleThreeSettings {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.7rem;
+    line-height: 3rem;
+}
