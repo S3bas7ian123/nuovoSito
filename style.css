@@ -81,6 +81,7 @@ div {
 .btnOne:hover, .btnTwo:hover {
     color: white;
     background-color: rgb(36, 36, 36);
+    transition: 0.5s;
 }
 
 .titleThreeSettings {
