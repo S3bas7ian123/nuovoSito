@@ -1,5 +1,7 @@
 const titleTwo = document.querySelector('.titleTwo');
-const titleThree = document.querySelector('.titleThree')
+const titleThree = document.querySelector('.titleThree');
+
+
 
 function changeTitleTwo() {
     titleTwo.style.fontFamily  = 'Libre Caslon Text';
@@ -14,3 +16,5 @@ function changeTitleThree() {
 }
 
 changeTitleThree();
+
+

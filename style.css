@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6,nav,header,main,footer,section {
 
 header{
     padding: 10px;
-    background-color: bisque;
+    background-color: rgb(255, 249, 243);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -66,10 +66,26 @@ div {
     margin: 0;
     padding: 2rem;
     height: 0;
+    gap: 6rem;
+}
+
+.btnOne, .btnTwo {
+    padding: 15px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.btnOne:hover, .btnTwo:hover {
+    color: white;
+    background-color: rgb(36, 36, 36);
 }
 
 .titleThreeSettings {
     font-family: "Cormorant Garamond", serif;
-    font-size: 1.7rem;
-    line-height: 3rem;
+    font-size: 2rem;
+    line-height: 4rem;
+    text-align: center;
 }
