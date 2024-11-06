@@ -41,6 +41,17 @@ a {
 
 /* _____________________________________________ */
 
+main {
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    background-image: url('img/360_F_620461991_K3DGOAEIyocC29Lfq6ewN1VHW6z2Bjgm.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(80%);
+}
+
 div {
     display: flex;
     height: 500px;
@@ -48,3 +59,4 @@ div {
     align-items: center;
     color: bisque;
 }
+
